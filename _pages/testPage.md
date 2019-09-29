@@ -1,5 +1,5 @@
 ---
-layout: archive-single
+layout: archive
 permalink: /testPage/
 title: "Test Pages"
 author_profile: true
