@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "James A. Smith"
-  avatar           : "/assets/images/profilePhoto.jpeg"
+  avatar           : "/images/profilePhoto.jpeg"
   bio              : "Computer science and algorithmic composition"
   location         : "Wales, Uk"
   github           : "jamesAllanS"
