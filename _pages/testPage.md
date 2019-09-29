@@ -4,7 +4,7 @@ permalink: /testPage/
 title: "Test Pages"
 author_profile: true
 header:
-  image: "/assets/images/board-911636.jpg"
+  image: "/images/board-911636.jpg"
 ---
 
 {% include base_path %}

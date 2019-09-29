@@ -3,7 +3,7 @@ title: "About"
 layout: single
 permalink: /about/
 header:
-  image: "/assets/images/binary-code-475664.jpg"
+  image: "/images/binary-code-475664.jpg"
 ---
 
 # About
