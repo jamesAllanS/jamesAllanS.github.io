@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /algorithmic-composition/
-title: "Algorithmic Composition"
+permalink: /testPage/
+title: "Test Pages"
 author_profile: true
 header:
   image: "/assets/images/board-911636.jpg"
