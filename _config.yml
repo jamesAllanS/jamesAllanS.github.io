@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "James Allan Smith"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profilePhoto.jpeg"
   bio              : "Computer science and algorithmic composition"
   location         : "Wales, Uk"
   github           : "jamesAllanSmith"
