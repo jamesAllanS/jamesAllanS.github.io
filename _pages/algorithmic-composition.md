@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /algorithmic-composition/
-title: "algorithmic-composition"
+title: "Algorithmic Composition"
 author_profile: true
 header:
   image: "/assets/images/sonic_code_montage.png"
