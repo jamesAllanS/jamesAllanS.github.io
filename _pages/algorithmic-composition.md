@@ -4,7 +4,7 @@ permalink: /algorithmic-composition/
 title: "Algorithmic Composition"
 author_profile: true
 header:
-  image: "/assets/images/sonic_code_montage.png"
+  image: "/assets/images/board-911636.jpg"
 ---
 
 {% include base_path %}
