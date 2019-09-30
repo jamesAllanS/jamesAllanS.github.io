@@ -1,6 +1,6 @@
 # H1 in index.md
 
-homepage info
+homepage info first paragraph
 
 My name and details etc
 
