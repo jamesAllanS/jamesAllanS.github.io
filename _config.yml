@@ -1,4 +1,5 @@
-theme: jekyll-theme-hacker
+theme: minima
+# theme: jekyll-theme-hacker
 title: James A. Smith
 author: James Smith
 email: your-email@domain.com
@@ -8,6 +9,5 @@ description: > # this means to ignore newlines until "baseurl:"
 # social links
 # twitter_username: your-twitter-handle
 github_username:  jamesAllanS
-
 show_excerpts: true # set to false to remove excerpts on the homepage - CLARIFY
 
