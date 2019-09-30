@@ -1,0 +1,13 @@
+title: James A. Smith
+author: James Smith
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Exploring web technology, programming, algorithms and algorithmic music and composition.
+
+# social links
+# twitter_username: your-twitter-handle
+github_username:  jamesAllanS
+
+show_excerpts: false # set to false to remove excerpts on the homepage - CLARIFY
+theme: hacker
+
