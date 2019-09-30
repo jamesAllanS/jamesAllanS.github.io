@@ -1,8 +1,8 @@
-# H1 in index.md
-
-homepage info first paragraph
+# Hello and welcome
 
 My name and details etc
 
 * cool stuff
 * more cool stuff
+
+articles etc. here
