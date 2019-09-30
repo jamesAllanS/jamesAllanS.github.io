@@ -1,3 +1,4 @@
+theme: hacker
 title: James A. Smith
 author: James Smith
 email: your-email@domain.com
@@ -9,5 +10,4 @@ description: > # this means to ignore newlines until "baseurl:"
 github_username:  jamesAllanS
 
 show_excerpts: true # set to false to remove excerpts on the homepage - CLARIFY
-theme: hacker
 
