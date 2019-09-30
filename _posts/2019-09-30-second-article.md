@@ -2,7 +2,7 @@
 layout: post
 title: yaml title of second article
 date: 2019-09-30 15:02
-author: Slarty Bardfast
+author: "Slarty Bardfast"
 tags: []
 summary: "no summary provided"
 ---
