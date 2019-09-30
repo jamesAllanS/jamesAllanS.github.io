@@ -1,4 +1,5 @@
-theme: jekyll-theme-hacker
+theme: minima
+# theme: jekyll-theme-hacker
 title: James A. Smith
 author: James Smith
 email: your-email@domain.com
