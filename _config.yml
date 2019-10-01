@@ -11,3 +11,4 @@ description: > # this means to ignore newlines until "baseurl:"
 github_username:  jamesAllanS
 show_excerpts: true # set to false to remove excerpts on the homepage - CLARIFY
 
+github: [metadata]
