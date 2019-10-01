@@ -1,7 +1,7 @@
 ---
 title: yaml title goes here
 date: 2019-09-30 14:21
-layout: post
+layout: default
 author: "J.A. Smith"
 tags: ["test", "article", "tech"]
 summary: "this is a summary"

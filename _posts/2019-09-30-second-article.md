@@ -1,9 +1,9 @@
 ---
-layout: post
-title: yaml title of second article
+layout: default
 date: 2019-09-30 15:02
-author: Slarty Bardfast
-tags: []
+title: yaml title of second article
+author: "Slarty Bardfast"
+tags: ["none"]
 summary: "no summary provided"
 ---
 
