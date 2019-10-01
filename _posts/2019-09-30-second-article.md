@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date: 2019-09-30 15:02
 title: yaml title of second article
 author: "Slarty Bardfast"

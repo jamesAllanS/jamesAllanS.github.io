@@ -1,3 +1,7 @@
+---
+title: home
+permalink: /home/
+---
 # Hello and welcome
 
 My name and details etc
