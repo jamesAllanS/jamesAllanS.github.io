@@ -275,3 +275,8 @@ section #title .credits.right { float: right; }
 @media print, screen and (max-width: 480px) { #header { margin-top: -20px; }
   section { margin-top: 40px; }
   nav { display: none; } }
+.linkbar { color: #ffcc00; }
+
+#header nav { background-color: #353535; }
+
+.current { color: #29f025; }

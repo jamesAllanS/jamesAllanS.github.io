@@ -1,4 +1,12 @@
 <nav>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
+    <!-- <span style="color: #ffcc00;">|</span> -->
+    <span class="linkbar">|</span>
+    {% for item in site.data.navigation %}
+    <!-- <a href="{{ item.link }}" {% if page.url == item.link %}style="color: lightgreen;" {% endif %}> -->
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+        {{ item.name }}
+    </a>
+    <!-- <span style="color: #ffcc00;">|</span> -->
+    <span class="linkbar">|</span>
+    {% endfor %}
 </nav>

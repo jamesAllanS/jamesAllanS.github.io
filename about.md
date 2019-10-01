@@ -12,5 +12,3 @@ summary:
 # This is what I'm about...
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo quia repudiandae necessitatibus nam dicta ea iusto neque? Dolor rem iste, doloremque perspiciatis neque nesciunt saepe veritatis eaque corrupti.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo quia repudiandae necessitatibus nam dicta ea iusto neque? Dolor rem iste, doloremque perspiciatis neque nesciunt saepe veritatis eaque corrupti.
