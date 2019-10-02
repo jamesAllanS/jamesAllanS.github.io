@@ -1,5 +1,5 @@
 ---
-layout: default
+# layout: default
 title: About
 date: 2019-10-01 04:38
 permalink: /about/

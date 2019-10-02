@@ -13,4 +13,32 @@ show_excerpts: false # set to false to remove excerpts on the homepage - CLARIFY
 show_github: false
 show_downloads: false
 
+collections:
+  authors:
+    output: true
+  # categories:
+  #   output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "James Smith"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 github: [metadata]

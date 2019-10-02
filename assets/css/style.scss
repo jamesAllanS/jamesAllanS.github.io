@@ -4,18 +4,19 @@
 @import "{{ site.theme }}";
 
 .current {
-  color: #00a8a8;
-  //   color: rgb(41, 240, 37);
+    // color: #ffcc00;
+    color: #00a8a8;
 }
 // .linkbar { color: red; }
 .linkbar {
-  color: #ffcc00;
+    color: #00a8a8;
 }
 // a:hover { color: #ffeb9b; }
 #header nav {
   //   background-color: #353535;
   background: url(../images/nav-bg.gif) #353535;
   position: absolute;
+  color: #00a8a8;
   bottom: 0;
   right: 0;
   left: 0;

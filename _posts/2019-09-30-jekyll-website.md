@@ -1,8 +1,7 @@
 ---
-layout: post
 date: 2019-09-30 15:30
-title: yaml title 3rd article
-author: James Smith
+title: Building a website with Jekyll
+# category: Web Development
 ---
 
 Here is the post in question

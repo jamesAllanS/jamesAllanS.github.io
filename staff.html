@@ -1,0 +1,16 @@
+---
+title: Staff
+---
+<h1>Staff</h1>
+<p>list all authors on the site. Jekyll makes the collection available at site.authors.</p> 
+<p>You can link to the output page using author.url.</p>
+
+<ul>
+  {% for author in site.authors %}
+    <li>
+      <h2>{{ author.name }}</h2>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,20 +1,11 @@
 ---
-title: yaml title goes here
+title: Setting up vscode vim
 date: 2019-09-30 14:21
-layout: default
-author: "J.A. Smith"
-tags: ["test", "article", "tech"]
+tags: ["vim", "vscode", "vs code"]
 summary: "this is a summary"
 ---
 
-# H1 in _posts/2019-09-30-test-first-article.md
+Setting up vs code with custom commands following leader key
 
-this is a test of some text.
+![random placeholder image featuring technology](http://placeimg.com/650/380/tech)
 
-> block quote test
-
-______
-
-## and another thing...
-
-another paragraph under subheading
