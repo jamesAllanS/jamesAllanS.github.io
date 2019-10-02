@@ -3,13 +3,14 @@ title: Article Categories
 permalink: /categories/
 ---
 <h1>Categories</h1>
-
+<p>list all categories on the site. Jekyll makes the collection available at site.categories.</p>
+<p>You can link to the output page using category.url.</p>
 <ul>
-  {% for category in site.categories %}
+    {% for category in site.categories %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ category.position }}</h3>
-      <p>{{ category.content | markdownify }}</p>
+        <h2><a href="{{ category.url }}">{{ category.name }}</a></h2>
+        <h3>{{ category.info }}</h3>
+        <p>{{ category.content | markdownify }}</p>
     </li>
-  {% endfor %}
+    {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 short_name: webdev
 name: Web Development
-position: 1 
+info: some info
 ---
 This is a brief description of the webdev category.
 

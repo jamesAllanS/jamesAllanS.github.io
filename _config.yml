@@ -16,8 +16,8 @@ show_downloads: false
 collections:
   authors:
     output: true
-  # categories:
-  #   output: true
+  categories:
+    output: true
 
 defaults:
   - scope:

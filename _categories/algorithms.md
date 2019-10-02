@@ -1,6 +1,6 @@
 ---
 short_name: algs
 name: Algorithms & Data Structures
-position: 1 
+info: details of algs & ADTs
 ---
 This is a brief description of the algorithms category.
