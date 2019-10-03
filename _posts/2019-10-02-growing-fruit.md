@@ -1,7 +1,7 @@
 ---
 title: How to grow really big fruit
 date: 2019-10-02 15:40
-author: jill
+contributor: jill
 tags: []
 summary: 
 ---

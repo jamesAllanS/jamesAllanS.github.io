@@ -3,18 +3,18 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p>
-    {{ page.date | date_to_string }} - {{ page.category }}
-    {% assign category = site.categories | where: 'short_name', page.category | first %}
-    {% if category %}
-    - Category: <a href="{{ category.url }}">{{ category.name }}</a>
+    {{ page.date | date_to_string }} - {{ page.topic }}
+    {% assign topic = site.topics | where: 'topic_id', page.topic | first %}
+    {% if topic %}
+    - Topic: <a href="{{ topic.url }}">{{ topic.title }}</a>
     {% endif %}
 </p>
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+  {% assign contributor = site.contributors | where: 'short_name', page.contributor | first %}
+  {% if contributor %}
+    - <a href="{{ contributor.url }}">{{ contributor.name }}</a>
   {% endif %}
 </p>
 
