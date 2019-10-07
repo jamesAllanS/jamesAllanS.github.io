@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.current {
+    color: #00a8a8;
+}
+.linkbar {
+    color: #00a8a8;
+}
+#header nav {
+  background: url(../images/nav-bg.gif) #353535;
+  position: absolute;
+  color: #00a8a8;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding-bottom: 2pt;
+  font-size: 110%;
+}
