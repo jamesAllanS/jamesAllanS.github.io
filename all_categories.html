@@ -1,0 +1,29 @@
+---
+title: Article Topics
+permalink: /categories/
+---
+<h1>topics</h1>
+
+<p>List all categories and posts therein</p>
+
+<!-- {% for topic in site.topics %}
+    <li>
+        <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
+        <h3>{{ topic.info }}</h3>
+        <p>{{ topic.content | markdownify }}</p>
+    </li>
+{% endfor %} -->
+
+
+{% for category in site.categories %}
+    <h3>{{ category[0] }}</h3>
+
+    <h2><a href="{{ post.page.category[0] }}">{{ category[0] }}</a></h2>
+
+    <ul>
+        {% for post in category[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <p>Need to put excerpt here</p>
+        {% endfor %}
+    </ul>
+{% endfor %}

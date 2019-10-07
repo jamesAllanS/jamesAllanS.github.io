@@ -22,14 +22,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "contributors"
-    values:
-      layout: "contributor"
-  - scope:
-      path: ""
       type: "topics"
     values:
-      layout: "topic"
+      layout: "cat_page"
   - scope:
       path: ""
       type: "posts"

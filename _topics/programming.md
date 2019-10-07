@@ -1,7 +1,6 @@
 ---
-topic_id: prog
+topic_id: programming
 title: Programming
-info: some info
 ---
 
 Programming, coding, IDEs and editors etc...
