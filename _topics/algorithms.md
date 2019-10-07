@@ -1,5 +1,6 @@
 ---
 topic_id: algs
+topic: algs
 title: Algorithms & Data Structures
 info: details of algs & ADTs
 ---
