@@ -1,3 +1,6 @@
+---
+title: Home
+---
 # Hello and welcome
 
 My name and details etc

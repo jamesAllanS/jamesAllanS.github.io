@@ -3,8 +3,10 @@ layout: default
 info: this page lists all posts for a given topic
 ---
 
-<h1>{{ page.category }}</h1>
-<p>Test all posts for category</p>
+<h1 class="current">{{ page.category }}</h1>
+<h3>
+    {{ content }}
+</h3>
 <ul>
 {% for post in site.categories[page.category] %}
   <li>
