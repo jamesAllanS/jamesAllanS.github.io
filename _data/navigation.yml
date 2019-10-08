@@ -4,7 +4,5 @@
   link: /about/
 - name: Articles
   link: /articles/
-- name: Topics
-  link: /topics/
-- name: Contributors
-  link: /contributors/
+- name: Categories
+  link: /categories/
