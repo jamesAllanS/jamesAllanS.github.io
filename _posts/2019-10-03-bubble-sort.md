@@ -2,7 +2,7 @@
 title: Bubble Sort is the way to go
 date: 2019-10-03 22:44
 topic_id: algs
-categories: [ "python2", python, bubble-sort-test, algs, prog ]
+categories: [ python, algorithms ]
 summary: 
 ---
 

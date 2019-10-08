@@ -3,7 +3,7 @@ date: 2019-09-30 15:02
 title: Setting up SSH key Github
 tags: ["none"]
 summary: "no summary provided"
-categories: [prog, github]
+categories: [vscode, github]
 ---
 
 ![random placeholder image featuring technology](http://placeimg.com/650/250/tech)

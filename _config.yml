@@ -22,7 +22,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "topics"
+      type: "categories"
     values:
       layout: "cat_page"
   - scope:

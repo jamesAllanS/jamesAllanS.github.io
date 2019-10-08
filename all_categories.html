@@ -2,18 +2,10 @@
 title: Article Topics
 permalink: /categories/
 ---
-<h1>topics</h1>
+
+<h1>Categories</h1>
 
 <p>List all categories and posts therein</p>
-
-<!-- {% for topic in site.topics %}
-    <li>
-        <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
-        <h3>{{ topic.info }}</h3>
-        <p>{{ topic.content | markdownify }}</p>
-    </li>
-{% endfor %} -->
-
 
 {% for category in site.categories %}
     <h3>{{ category[0] }}</h3>
