@@ -279,4 +279,4 @@ section #title .credits.right { float: right; }
 
 .linkbar { color: #009696; }
 
-#header nav { background: url(../images/nav-bg.gif) #353535; position: absolute; color: red; bottom: 0; right: 0; left: 0; margin: auto; padding-bottom: 2pt; font-size: 110%; }
+#header nav { background: url(../images/nav-bg.gif) #353535; position: absolute; bottom: 0; right: 0; left: 0; margin: auto; padding-bottom: 2pt; font-size: 110%; }

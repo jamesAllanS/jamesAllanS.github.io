@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Hello and welcome
+<h1 class="current">Hello and welcome</h1>
 
 My name and details etc
 
