@@ -4,6 +4,6 @@ date: YYYY-MM-DD HH:MM
 category: category
 tags: [tag1, tag2]
 summary: Summary of the article
-test: Test text
+test: "Test text"
 ---
 
