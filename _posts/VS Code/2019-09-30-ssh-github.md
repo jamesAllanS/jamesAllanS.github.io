@@ -1,7 +1,8 @@
 ---
 date: 2019-09-30 15:02
 title: Setting up SSH key Github
-tags: [github, ssh, vscode]
+category: Github
+tags: [github, git, ssh, vscode]
 summary: "no summary provided"
 ---
 
@@ -15,3 +16,9 @@ A guide to setting up github without needing to enter password for each push.
     > run something
     >
     > run something else
+
+```
+again
+and
+again
+```

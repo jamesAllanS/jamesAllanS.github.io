@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # twitter_username: your-twitter-handle
 github_username:  jamesAllanS
 show_excerpts: false # set to false to remove excerpts on the homepage - CLARIFY
-show_github: false
+show_github: true
 show_downloads: false
 
 collections:

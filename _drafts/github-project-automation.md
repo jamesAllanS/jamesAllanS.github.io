@@ -1,7 +1,7 @@
 ---
 title: Enhanced automation for gitHub projects
 date: 
-category: github
+category: Github
 tags: []
 summary: How to achieve Unito git sync like functionality to a github project
 ---
