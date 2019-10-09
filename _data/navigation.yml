@@ -4,5 +4,5 @@
   link: /about/
 - name: Articles
   link: /articles/
-- name: Categories
-  link: /categories/
+# - name: Projects
+#   link: /projects/
