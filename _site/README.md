@@ -1,3 +1,3 @@
 # README
 
-profile page for jamesAllanS
+profile site for James A. Smith

@@ -1,9 +1,11 @@
 ---
 permalink: /articles/
+info: list all articles by recency
+title: Articles
 ---
 
-<h1>Latest Posts</h1>
-
+<h1 class="current">Latest Posts</h1>
+<p><a href="/categories/">View all categories</a> </p>
 <ul>
     {% for post in site.posts %}
     <li>

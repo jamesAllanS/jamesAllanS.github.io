@@ -1,21 +1,19 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1 class="current">{{ page.title }}</h1>
 <p>
-    {{ page.date | date_to_string }} - {{ page.topic }}
-    {% assign topic = site.topics | where: 'topic_id', page.topic | first %}
-    {% if topic %}
-    - Topic: <a href="{{ topic.url }}">{{ topic.title }}</a>
-    {% endif %}
-</p>
+    {{ page.date | date_to_string }} - {{ page.category }}
+    - Categories: 
+    <span class="linkbar">| </span>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign contributor = site.contributors | where: 'short_name', page.contributor | first %}
-  {% if contributor %}
-    - <a href="{{ contributor.url }}">{{ contributor.name }}</a>
-  {% endif %}
+    <a href="/categories/">View all</a>
+    <span class="linkbar">| </span>
+    {% for category in page.categories %}
+    <a href="/categories/{{ category }}/">{{ category }} </a>
+    <span class="linkbar">| </span>
+    {% endfor %}
 </p>
+<p>Author: {{ page.author }}</p>
 
 {{ content }}

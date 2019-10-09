@@ -275,8 +275,8 @@ section #title .credits.right { float: right; }
 @media print, screen and (max-width: 480px) { #header { margin-top: -20px; }
   section { margin-top: 40px; }
   nav { display: none; } }
-.current { color: #00a8a8; }
+.current { color: #00c7c7; }
 
-.linkbar { color: #00a8a8; }
+.linkbar { color: #009696; }
 
-#header nav { background: url(../images/nav-bg.gif) #353535; position: absolute; color: #00a8a8; bottom: 0; right: 0; left: 0; margin: auto; padding-bottom: 2pt; font-size: 110%; }
+#header nav { background: url(../images/nav-bg.gif) #353535; position: absolute; color: red; bottom: 0; right: 0; left: 0; margin: auto; padding-bottom: 2pt; font-size: 110%; }
