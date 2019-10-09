@@ -1,8 +1,7 @@
 ---
 title: Bubble Sort is the way to go
 date: 2019-10-03 22:44
-topic_id: algs
-categories: [ python, algorithms ]
+tags: [python, python3, bubble sort, algorithms, sorting, sorting algorithms]
 summary: 
 ---
 
