@@ -14,6 +14,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo
 
 ## Skills:
 
+* need to iterate through a collection here.
+* need to change this file to html
+
 <div class="row">
 
 <div class="column about-left">
