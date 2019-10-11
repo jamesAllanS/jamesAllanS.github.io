@@ -1,0 +1,16 @@
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<time>{{ post.date | date: "%B %d, %Y" }}</time>
+
+<div class="row">
+    {% if post.featured-image %}
+    <div class="column">
+        {% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}
+    </div>
+    <div class="column">
+        <p>{{ post.excerpt | strip_html }}</p>
+    </div>
+
+    {% else %}
+        <p>{{ post.excerpt | strip_html }}</p>
+    {% endif %}
+</div>

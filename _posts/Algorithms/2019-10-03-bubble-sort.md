@@ -3,10 +3,12 @@ title: Bubble Sort is the way to go
 date: 2019-10-03 22:44
 category: Algorithms
 tags: [python, python3, bubble sort, algorithms, sorting, sorting algorithms]
-summary: 
+summary: none
+featured-image: jekyllScreenshot.png
+featured-image-alt: screenshot of python code
 ---
 
-![random placeholder image featuring technology](http://placeimg.com/650/300/tech)
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo quia repudiandae necessitatibus nam dicta ea iusto neque? Dolor rem iste, doloremque perspiciatis neque nesciunt saepe veritatis eaque corrupti.
 
 Bubble sort in python:
 
