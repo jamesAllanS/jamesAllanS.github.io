@@ -1,16 +1,20 @@
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<time>{{ post.date | date: "%B %d, %Y" }}</time>
+<section class="post-excerpt">
 
-<div class="row">
-    {% if post.featured-image %}
-    <div class="column">
-        {% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}
-    </div>
-    <div class="column">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <time><span class="linkbar">[ </span>{{ post.date | date: "%B %d, %Y" }}<span class="linkbar"> ]</span></time>
+
+
+    <div class="row">
+        {% if post.featured-image %}
+        <div class="column left">
+            {% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}
+        </div>
+        <div class="column right">
+            <p>{{ post.excerpt | strip_html }}</p>
+        </div>
+        {% else %}
         <p>{{ post.excerpt | strip_html }}</p>
+        {% endif %}
     </div>
 
-    {% else %}
-        <p>{{ post.excerpt | strip_html }}</p>
-    {% endif %}
-</div>
+</section>

@@ -14,8 +14,25 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo
 
 ## Skills:
 
+<div class="row">
+
+<div class="column about-left">
 * Languages:
     * Bash, Python, Java, HTML, CSS, Javascript
+
+</div>
+
+<div class="column about-right">
+
+Workflow
+    * Kanban
+    * Trello
+    * Github projects
+
+</div>
+
+</div>
+
 
 ___
 
@@ -24,7 +41,5 @@ ___
 
 ___
 
-* Workflow
-    * Kanban, Trello, Github projects
 
 ___
