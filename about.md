@@ -13,15 +13,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo
 
 ## Skills:
 
-* need to change this file to html
-
-* iter thru sections
-  * if index isEven
-    * add to row
-    * add page.current index to left col
-    * add page.current index + 1 to right col
-
-___
-
 {% include about-sections.html %}
-___

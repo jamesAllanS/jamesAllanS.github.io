@@ -12,12 +12,6 @@ show_excerpts: false # set to false to remove excerpts on the homepage - CLARIFY
 show_github: false
 show_downloads: false
 
-collections:
-  # contributors:
-  #   output: true
-  about_sections:
-    output: true
-    sort_by: sort_order
 
 defaults:
   - scope:
@@ -35,5 +29,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+collections:
+  about_sections:
+    output: true
 
 github: [metadata]

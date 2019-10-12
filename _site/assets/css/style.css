@@ -292,10 +292,6 @@ section #title { margin-bottom: 10px; padding-bottom: 5px; }
 
 .right { width: 66%; }
 
-.about-left { width: 50%; }
-
-.about-right { width: 50%; }
-
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }
 
