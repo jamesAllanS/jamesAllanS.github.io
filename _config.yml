@@ -15,8 +15,9 @@ show_downloads: false
 collections:
   contributors:
     output: true
-  topics:
+  about_sections:
     output: true
+    sort_by: sort_order
 
 defaults:
   - scope:
