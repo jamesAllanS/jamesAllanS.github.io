@@ -1,0 +1,34 @@
+{% assign sections = site.about_sections  %}
+{% assign sectionsLengthMinusOne = site.about_sections.size | minus: 1 %}
+
+{{ sectionsLengthMinusOne }}
+
+{% for i in (0..sectionsLengthMinusOne) %}
+<p>test outer for loop: index: {{ i }}</p>
+{% assign next_i = forloop.index0 | plus: 1 %} 
+{% assign remainder = i | modulo:2 %}
+{% if remainder == 0 %}
+
+<div class="row">
+    
+    <div class="column about-left">
+        <h2>{{ sections[i].title }}</h2>
+        <h3>{{ sections[i].description }}</h3>
+        <p>{{ sections[i].content | markdownify }}</p>
+    </div>
+
+    <div class="column about-right">
+        <h2>{{ sections[next_i].title }}</h2>
+        <h3>{{ sections[next_i].description }}</h3>
+        <p>{{ sections[next_i].content | markdownify }}</p>
+    </div>
+    
+</div>
+
+{% else %}
+{% continue %}
+{% endif %}
+
+{% else %}
+<p>No elements found in for loop</p>
+{% endfor %}

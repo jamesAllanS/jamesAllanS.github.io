@@ -21,36 +21,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo
     * add page.current index to left col
     * add page.current index + 1 to right col
 
-<div class="row">
-
-<!-- TODO for loop needs to start on a given index -->
-{% for section in site.about_sections limit:2 %}
-  {% assign result = forloop.index | modulo:2 %}
-  {% if result == 0 %}
-<div class="column about-left">
-  <h2>{{ section.title }}</h2>
-  <h3>{{ section.description }}</h3>
-  <p>{{ section.content | markdownify }}</p>
-</div>
-  {% else %}
-<div class="column about-right">
-  <h2>{{ section.title }}</h2>
-  <h3>{{ section.description }}</h3>
-  <p>{{ section.content | markdownify }}</p>
-</div>
-  {% endif %}
-{% endfor %}
-
-{% for i in (3..5) %}
-  {{ i }}
-{% endfor %}
-
-</div>
-
-* Version Control:
-    * Git / Github
-
 ___
 
-
+{% include about-sections.html %}
 ___

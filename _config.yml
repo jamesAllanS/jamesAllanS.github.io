@@ -13,8 +13,8 @@ show_github: false
 show_downloads: false
 
 collections:
-  contributors:
-    output: true
+  # contributors:
+  #   output: true
   about_sections:
     output: true
     sort_by: sort_order
