@@ -19,9 +19,11 @@
   padding-bottom: 2pt;
   font-size: 110%;
 }
-section #title {  margin-bottom: 10px; padding-bottom: 5px; }
+section #title {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
 // section #feat-image {   }
-
 * {
   box-sizing: border-box;
 }
@@ -55,8 +57,20 @@ section #title {  margin-bottom: 10px; padding-bottom: 5px; }
   }
 }
 
-section .post-excerpt{ max-width: 650px; padding: 5px 0px 5px 0px; margin: 2px 0; margin-top: 7px; }
+section .post-excerpt {
+  max-width: 650px;
+  padding: 5px 0px 5px 0px;
+  margin: 2px 0;
+  margin-top: 7px;
+}
 .info {
-    color: #808080;
-    font-size: 12px;
+  color: #808080;
+  font-size: 12px;
+}
+
+div .project-box-footer {
+  bottom: 0;
+  position: relative;
+  vertical-align: baseline;
+  margin: auto;
 }

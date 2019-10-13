@@ -9,30 +9,11 @@ title: Home
 Brief description / summary here. paragraph giving overview of site and about page?
 
 * Links (Text and icon)
-    * Github
-    * Linkdin
-    * HackerRank
-
-## Screenshots
-
-link to best 3 projects
-* no downloads, must be live...
-
-### project 1
-
-* Jekyll template
+    * Github, Linkdin, HackerRank
 
 ___
 
-### project 2
-
-* Folksy (Still going?) fee calculator
-
-___
-
-### project 3
-
-* X window launcher & manager
+{% include home-projects.html numberVisible=3 %}
 
 ___
 
