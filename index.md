@@ -2,36 +2,37 @@
 title: Home
 ---
 
-
 <h1 class="current">Hello and welcome</h1>
 
+![random placeholder image featuring technology](http://placeimg.com/650/110/tech)
 
-![random placeholder image featuring technology](http://placeimg.com/650/100/tech)
+Brief description / summary here. paragraph giving overview of site and about page?
 
-* Links (Should display in line under heading or title)
+* Links (Text and icon)
     * Github
-    * HackerRank
     * Linkdin
-    * etc...
-* Basic details
-    * Name and brief intro
-    * Current study etc.
-    * Current projects
-    * research what should go here...
+    * HackerRank
 
-## Screenshots which link to best 3 projects - no downloads, must be live...
+## Screenshots
+
+link to best 3 projects
+* no downloads, must be live...
 
 ### project 1
+
+* Jekyll template
 
 ___
 
 ### project 2
 
+* Folksy (Still going?) fee calculator
+
 ___
 
 ### project 3
 
-___
+* X window launcher & manager
 
-* Last 3 recent articles - or best 3...
+___
 

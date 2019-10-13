@@ -1,5 +1,5 @@
-{% assign sections = site.about_sections | sort:"sort_order" %}
-{% assign sectionsLengthMinusOne = site.about_sections.size | minus: 1 %}
+{% assign sections = site.data.about_sections | sort:"sort_order" %}
+{% assign sectionsLengthMinusOne = sections.size | minus: 1 %}
 
 {% for i in (0..sectionsLengthMinusOne) %}
 {% assign next_i = forloop.index0 | plus: 1 %}
@@ -11,13 +11,26 @@
     <div class="column">
         <h2 class="linkbar">{{ sections[i].title }}</h2>
         <h3>{{ sections[i].description }}</h3>
-        <p>{{ sections[i].content | markdownify }}</p>
+        <ul>
+            {% for item in sections[i].list %}
+            <li>
+                {{ item }}
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 
     <div class="column">
         <h2 class="linkbar">{{ sections[next_i].title }}</h2>
         <h3>{{ sections[next_i].description }}</h3>
-        <p>{{ sections[next_i].content | markdownify }}</p>
+
+        <ul>
+            {% for item in sections[next_i].list %}
+            <li>
+                {{ item }}
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 
 </div>
