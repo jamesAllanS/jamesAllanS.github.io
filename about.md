@@ -1,28 +1,14 @@
 ---
-title: About
-date: 2019-10-01 04:38
 permalink: /about/
-tags: []
-summary: 
+layout: about
+image_url: http://placeimg.com/650/120/tech
+image_alt: Random image featuring technology
+
+tags: [blog, tech, tech blog]
+
+heading: Now This is what I'm about vol II
+summary: The summary of the about page
+subsection_heading: Skills & Experience
 ---
 
-<h1 class="current"> This is what I'm about...</h1>
-
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus explicabo quia repudiandae necessitatibus nam dicta ea iusto neque? Dolor rem iste, doloremque perspiciatis neque nesciunt saepe veritatis eaque corrupti.
-
-## Skills:
-
-* Languages:
-    * Bash, Python, Java, HTML, CSS, Javascript
-
-___
-
-* Version Control:
-    * Git / Github
-
-___
-
-* Workflow
-    * Kanban, Trello, Github projects
-
-___

@@ -1,0 +1,15 @@
+---
+layout: default
+title: About
+---
+
+<h1 class="current">{{ page.heading }}</h1>
+<div style="padding-top: 20px">
+    <img src="{{ page.image_url }}" alt="{{ page.image_alt }}">
+</div>
+
+<p>{{ page.content | markdownify }}</p>
+
+<h2>{{ page.subsection_heading }}</h2>
+
+{% include about-sections.html %}

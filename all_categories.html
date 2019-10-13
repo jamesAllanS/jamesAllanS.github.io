@@ -1,18 +1,23 @@
 ---
 title: Categories
 permalink: /categories/
+info: list last three articles for each category by recency
 ---
 
 <h1 class="current">Categories</h1>
-<p>List all categories and last 5 posts therein NEEDS IMPLEMENTING</p>
-<hr>
+<p><a href="/articles/">View recent articles</a></p>
+<p class="info">Showing the three most recent posts in each category. click on the category to view all articles for that category.</p>
+
 {% for category in site.categories %}
 <h2><a href="{{ category[0] }}/">{{ category[0] }}</a></h2>
 <ul>
-    {% for post in category[1] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    <p>{{ post.excerpt | strip_html | truncatewords:75 }}</p>
+    {% for post in category[1] limit:3 %}
+    <li>
+        {% include post-excerpt.html %}
+    </li>
     {% endfor %}
 </ul>
 <hr>
+{% else %}
+<p>No posts or categories to show</p>
 {% endfor %}

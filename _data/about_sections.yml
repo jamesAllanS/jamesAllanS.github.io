@@ -1,0 +1,16 @@
+- title: Frameworks
+  description: Experience with the following frameworks
+  bullet_list: [Bootstrap, React, Jekyll]
+
+- title: Languages
+  description: Experience with the following languages
+  bullet_list: [Python, Java, HTML, CSS, Javascript, Bash]
+
+- title: Workflow
+  description: Experience with the following workflow methodologies and tools
+  bullet_list: [Kanban, Trello, Github projects]
+
+- title: Server & backend
+  description: Experience with the following server side protocols and tools
+  bullet_list: [PHP, MongoDB, MySQL, cPanel]
+ 
