@@ -1,4 +1,13 @@
 - title: Jekyll Template
-  description: This website theme as a jekyll template
+  subheading: This website theme as a jekyll template
+  description: Provide a few details about the main features of the project here... 
+  image: http://placeimg.com/650/650/tech
+  project_url: https://my-project.dev
+  project_code: https://my-project.dev
+
+- title: Project 2
+  subheading: This is project 2 subheading
+  description: Here are a few details about the main features of the project... 
+  image: http://placeimg.com/550/550/tech
   project_url: https://my-project.dev
   project_code: https://my-project.dev
