@@ -68,9 +68,8 @@ section .post-excerpt {
   font-size: 12px;
 }
 
-div .project-box-footer {
-  bottom: 0;
-  position: relative;
-  vertical-align: baseline;
-  margin: auto;
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
